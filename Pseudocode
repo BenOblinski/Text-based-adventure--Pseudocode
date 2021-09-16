@@ -1,5 +1,5 @@
 # CHARACTER
-  # STATS (all stats will we viewable by typing 'stats')
+  # STATS (all stats will be viewable by typing 'stats')
     # HEALTH
       # when in combat with an enemy, on the enemies turn it will do damage to you.
       # The damage it does will be subtracted from your health. If you reach 0 or less health you loose the game
@@ -9,11 +9,40 @@
       # Weapon (the weapon you are using gives a certain bonus to your attack strength)
       # Class (the class you are playing will affect your attack. For example: bounty hunters are stronger that lawmen)
       # Race (their are various races such as human, skeleton, ghost. Some races are stronger than others)
-      # Formula (The formula for attack strenght is ("class strength" + "race strength") x weapon attack modifier
+      # Formula (The formula for DAMAGE DEALT is ("class strength" + "race strength") x weapon attack modifier
+      # weapon attack modifier will multiply you damage by a factor. EX: 1.4, 1.7, 2.4
       
     # DEFENSE (a characters ability to resist damage)
       # Class (the class you are playing will affect your defense. For example: lawmen have a better defense than cowboys)
       # Race (their are various races such as human, skeleton, ghost. Some races have better defense others)
-    # sanity
+      # Formula (the formula for DAMAGE TAKEN is "incoming damage" x ("defense modifier" - "armour bonus")) 
+      # defese modifier will multiply your damage taken by a factor. EX .97, .65, .1
     
-  # invnetory
+  # invnetory (inventory shows what items you have, can be opened by typing int)
+    # items slots
+        # MAIN WEAPON
+          # tpye Mattack to use the main weapon. 
+          # this slot stores guns and swords
+          #when you aquire weapons, the weaker one will automaticly be deleted and replaced by the stronger one
+        
+        # SECONDARY WEAPON
+          #type Sattack to use the secondary attack
+          #this slot stores knives, lassos, or unarmed attacks
+        
+        # HEALING ITEMS
+          # type Heal to use healing items
+          # these items add points to your total hp
+          
+        # MONEY
+          # use money to buy things at stores
+   # ENEMIES DEFEATED
+       # a score shwoing how many enemies you hahve killed
+# COMBAT
+    # At certain points during a level, therer is a chance of encoutering enemies. The game picks a random enemy, or enemies. 
+    #The program will pick a random enemy from a list and enter combat. 
+    # in combat, both characters will attack each other until ones hit points is reduced to zero.
+    # when an enemy is defeated, you will be given random loot and money. 
+    # when you defeat an enemy, your "ENEMIES DEFEATED" stat will go up
+  
+# LEVELS
+    #
