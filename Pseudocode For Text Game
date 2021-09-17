@@ -15,7 +15,7 @@
     # DEFENSE (a characters ability to resist damage)
       # Class (the class you are playing will affect your defense. For example: lawmen have a better defense than cowboys)
       # Race (their are various races such as human, skeleton, ghost. Some races have better defense others)
-      # Formula (the formula for DAMAGE TAKEN is "incoming damage" x ("defense modifier" - "armour bonus")) 
+      # Formula (the formula for DAMAGE TAKEN is ("incoming damage" x ("defense modifier")) - "armour bonus"
       # defese modifier will multiply your damage taken by a factor. EX .97, .65, .1
 	  
 	# XP (experience points)
@@ -45,7 +45,7 @@
         # MONEY
           # use money to buy things at stores
    # ENEMIES DEFEATED
-       # a score shwoing how many enemies you have killed
+       # a score showing how many enemies you have killed
        
 # ******COMBAT******
     # At certain points during a level, therer is a chance of encoutering enemies. The game picks a random enemy, or enemies. 
