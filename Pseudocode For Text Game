@@ -17,6 +17,15 @@
       # Race (their are various races such as human, skeleton, ghost. Some races have better defense others)
       # Formula (the formula for DAMAGE TAKEN is "incoming damage" x ("defense modifier" - "armour bonus")) 
       # defese modifier will multiply your damage taken by a factor. EX .97, .65, .1
+	  
+	# XP
+		# When you defeat an enemy or beat a level you will get an amount of XP. if you have enough XP you will increase your CHARACTER LEVEL. 
+		# Increaseing your character level gives you bonuses to health, attack and defense
+			# LEVEL 1 - 100 xp - +1 to attack
+			# LEVEL 2 - 250 xp - +10 to health and + 1 to defense
+			# LEVEL 3 - 400 xp - +10 to health and + 2 to attack
+			# LEVEL 4 - 900 xp - +20 to health and + 3 to defense
+			# LEVEL 5 (MAX LEVEL) - 1500 xp - +30 to health and + 4 to attack and + 4 to defense
     
   # invnetory (inventory shows what items you have, can be opened by typing int)
     # items slots
@@ -36,7 +45,8 @@
         # MONEY
           # use money to buy things at stores
    # ENEMIES DEFEATED
-       # a score shwoing how many enemies you hahve killed
+       # a score shwoing how many enemies you have killed
+       
 # COMBAT
     # At certain points during a level, therer is a chance of encoutering enemies. The game picks a random enemy, or enemies. 
     #The program will pick a random enemy from a list and enter combat. 
@@ -44,5 +54,32 @@
     # when an enemy is defeated, you will be given random loot and money. 
     # when you defeat an enemy, your "ENEMIES DEFEATED" stat will go up
   
-# LEVELS
-    #
+# LEVELS (Each game mode has 4 levels (this number may change later). If you survive all these levels you have beat the game
+    # There are two game modes you can choose. You can choose to play as a HERO, or A VILLAN
+        #HERO (The hero mode is about catching robbers and outlaws. You play as a sheriff or bounty hunter)
+        	#LEVEL 1 (stop a highway robber)
+				#A highway man tries to rob you, fight him
+			#LEVEL 2 (Catch the outlaw)
+				#you see and outlaw in a tavern
+				#chase after him
+				#he tells you we works for the gang leader
+				#fight him
+			#LEVEL 3 (find the gang leader)
+				# search the town for clues to the gang leaders location
+			#LEVEL 4 (fight the gang and its leader)
+			 	#you find the gang leader, fight him. 
+        #VILLAN (The villan mode is about robbing trains, banks and outrunning the lawmen).
+			#LEVEL 1 (highway robbery)
+				#hide by the side of the road
+				#rob a traveler
+				#fight the traveler
+			#LEVEL 2 (rob a train)
+				#jump to train from horse
+				#guess the combinatoin to the safe
+				#escape form the law
+			#LEVEL 3 (fight lawmen)
+				#lawmen have found your camp, fight them 
+			#LEVEL 4 (rob a bank)
+			 	#Sneak in
+				#guess the combination to the safe
+				#escape 
