@@ -50,6 +50,20 @@
 # ******COMBAT******
     # At certain points during a level, therer is a chance of encoutering enemies. The game picks a random enemy, or enemies. 
     #The program will pick a random enemy from a list and enter combat. 
+    	# list of random enemies
+	    # highway robber
+	    # cowboy
+	    # outlaw
+	    # angry bison
+	    # cranky crocodile
+	    # wild snake
+	    # pack of wolves
+	    # farmer
+	    # ill tempered bear
+	    # aggresive puma
+	    # monster aligator
+	    # majestic elk
+	    # irritable moose
     # in combat, both characters will attack each other until ones hit points is reduced to zero.
     # when an enemy is defeated, you will be given random loot and money. 
     # when you defeat an enemy, your "ENEMIES DEFEATED" stat will go up
