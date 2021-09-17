@@ -64,6 +64,10 @@
 	    # monster aligator
 	    # majestic elk
 	    # irritable moose
+	    # magic skeleton
+	    # spooky ghost
+	    # walking cactus
+	    # venomous lizard
     # in combat, both characters will attack each other until ones hit points is reduced to zero.
     # when an enemy is defeated, you will be given random loot and money. 
     # when you defeat an enemy, your "ENEMIES DEFEATED" stat will go up
@@ -71,6 +75,7 @@
 # ********LEVELS********
     #Each game mode has 4 levels (this number may change later). If you survive all these levels you have beat the game!
     # There are two game modes you can choose. You can choose to play as a HERO, or A VILLAN
+    # if you die during a level, your progress is lost and yoummust start back at the beginging of the game
         #HERO (The hero mode is about catching robbers and outlaws. You play as a sheriff or bounty hunter)
         	#LEVEL 1 (stop a highway robber)
 				#A highway man tries to rob you, fight him
